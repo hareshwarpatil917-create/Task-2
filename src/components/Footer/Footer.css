@@ -1,1 +1,38 @@
  
+.footer{
+    background:#0f172a;
+    color:white;
+    text-align:center;
+    padding:40px 20px;
+}
+
+.footer h2{
+    color:#2563eb;
+    margin-bottom:15px;
+}
+
+.footer p{
+    color:#cbd5e1;
+    margin-bottom:20px;
+}
+
+.social-links{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    margin-bottom:20px;
+}
+
+.social-links a{
+    color:white;
+    font-size:1.7rem;
+    transition:.3s;
+}
+
+.social-links a:hover{
+    color:#2563eb;
+}
+
+.copyright{
+    font-size:.9rem;
+}
