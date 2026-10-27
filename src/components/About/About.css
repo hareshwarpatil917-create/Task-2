@@ -1,4 +1,4 @@
- 
+
 .about{
     display:flex;
     align-items:center;
@@ -60,6 +60,17 @@
 
     .about-image img{
         margin:auto;
+    }
+
+}
+@media (max-width:480px){
+
+    .about{
+        padding:60px 20px;
+    }
+
+    .about-content h2{
+        font-size:2rem;
     }
 
 }

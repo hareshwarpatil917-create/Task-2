@@ -21,13 +21,12 @@
     grid-template-columns:repeat(4,1fr);
     gap:25px;
 }
-
 .service-card{
     background:white;
     padding:30px;
     border-radius:12px;
     box-shadow:0 5px 15px rgba(0,0,0,0.08);
-    transition:.3s;
+    transition:.3s; 
 }
 
 .service-card:hover{
@@ -62,6 +61,17 @@
 
     .services-container{
         grid-template-columns:1fr;
+    }
+
+}
+@media (max-width:480px){
+
+    .services{
+        padding:60px 20px;
+    }
+
+    .services h2{
+        font-size:2rem;
     }
 
 }

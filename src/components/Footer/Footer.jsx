@@ -1,6 +1,5 @@
 import "./Footer.css";
-import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
-
+import {FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 function Footer() {
   return (
     <footer className="footer">
@@ -32,13 +31,10 @@ function Footer() {
         <a href="mailto:hareshwarpatil917@gmail.com">
           <FaEnvelope />
         </a>
-
       </div>
-
       <p className="copyright">
         © 2026 TechNova Solutions. All Rights Reserved.
       </p>
-
     </footer>
   );
 }

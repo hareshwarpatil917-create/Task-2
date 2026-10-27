@@ -95,3 +95,12 @@
     }
 
 }
+.primary-btn,
+.secondary-btn{
+    transition:0.3s;
+}
+
+.primary-btn:hover,
+.secondary-btn:hover{
+    transform:translateY(-2px);
+}

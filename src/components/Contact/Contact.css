@@ -46,8 +46,40 @@
     border-radius:8px;
     cursor:pointer;
     font-size:1rem;
+    transition:0.3s;
+
+}
+
+
+.contact-form button:hover{
+    transform:translateY(-2px);
 }
 
 .contact-form button:hover{
     background:#1d4ed8;
+}
+@media (max-width:768px){
+
+    .contact{
+        padding:60px 20px;
+    }
+
+    .contact h2{
+        font-size:2rem;
+    }
+
+    .contact-form{
+        width:100%;
+    }
+
+    .contact-form input,
+    .contact-form textarea{
+        width:100%;
+        font-size:1rem;
+    }
+
+    .contact-form button{
+        width:100%;
+    }
+
 }

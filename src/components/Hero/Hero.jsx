@@ -4,18 +4,14 @@ import heroImage from "../../assets/images/hero.png";
 function Hero() {
   return (
     <section className="hero" id="home">
-
       <div className="hero-content">
-
         <h1>
           Grow Your Business with Modern Digital Solutions
         </h1>
-
         <p>
           We help businesses build fast, responsive and user-friendly
           websites that improve online presence and drive growth.
         </p>
-
         <div className="hero-buttons">
 
           <button className="primary-btn">

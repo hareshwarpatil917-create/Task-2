@@ -4,15 +4,11 @@ import { FaLaptopCode, FaPaintBrush, FaChartLine, FaMobileAlt } from "react-icon
 function Services() {
   return (
     <section className="services" id="services">
-
       <h2>Our Services</h2>
-
       <p className="services-subtitle">
         We provide modern digital solutions to help businesses grow online.
       </p>
-
       <div className="services-container">
-
         <div className="service-card">
           <FaLaptopCode className="service-icon" />
           <h3>Web Development</h3>
@@ -44,9 +40,7 @@ function Services() {
             Websites optimized to work perfectly across all screen sizes.
           </p>
         </div>
-
       </div>
-
     </section>
   );
 }
